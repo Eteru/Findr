@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Findr</string>
+
+    <string name="settings_string">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_filter_locations">Filter locations</string>
+    <string-array name="pref_filter_locations_titles">
+        <item>ATMs</item>
+        <item>Bus stations</item>
+        <item>Cafes</item>
+        <item>Restaurants</item>
+        <item>Meal takeaway</item>
+        <item>Bars</item>
+        <item>Nightclubs</item>
+    </string-array>
+    <string-array name="pref_filter_locations_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_search_range">Search range</string>
+    <string name="pref_range_radius_message">Choose the range radius</string>
+    <string name="pref_range_summary">$1 Km</string>
+    <string name="pref_range_unit">Km</string>
+    <string name="pref_range_title">Range radius</string>
+    <string name="pref_header_general">General</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
+

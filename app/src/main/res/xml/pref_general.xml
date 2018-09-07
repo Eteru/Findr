@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/pref_filter_locations_titles"
+        android:entryValues="@array/pref_filter_locations_values"
+        android:key="filter_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_filter_locations" />
+
+    <SeekBarPreference
+        android:key="distance_slider"
+        android:title="@string/pref_range_title"
+        android:summary="@string/pref_range_summary"
+        android:min="0"
+        android:max="10"
+        android:defaultValue="5" />
+
+</PreferenceScreen>
